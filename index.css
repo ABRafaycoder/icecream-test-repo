@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+#POL {
+    background-color: rgb(219, 147, 171);
+    height: 790px;
+}
+ 
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    display: flex;
+
+    align-items: center;
+    padding: 80px 100px;
+    position: relative;
+}
+
+
+
+.left {
+    width: 30%;
+}
+
+.left h1 {
+    font-size: 35px;
+    font-weight: 200;
+    color: white;
+}
+
+.left h1 span {
+    color: #d91a46;
+}
+
+.milk-box {
+    margin: 20px 0;
+}
+
+.milk-img {
+    width: 140px;
+}
+
+.milk-text {
+    color: white;
+    font-size: 32px;
+    font-weight: 00;
+    line-height: 1.1;
+    margin-top: -8px;
+}
+
+.buttons { margin: 25px 0; }
+
+.btn {
+    padding: 12px 28px;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.red { background: #d91a46; color: white; }
+.white { background: white; color: #d91a46; }
+
+.desc {
+    color: white;
+    max-width: 250px;
+    font-size: 14px;
+}
+
+/* ================= CENTER ICE CREAM ================= */
+
+.center {
+    position: relative;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    width: 500px;
+    height: 500px;
+    background: #f3a7ba;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+}
+
+.ice-img {
+    width: 300px;
+    position: relative;
+    z-index: 2;
+}
+
+/* ================= RIGHT STATS ================= */
+
+.stats {
+    text-align: right;
+}
+
+.stats h2 {
+    color: #d91a46;
+    font-size: 40px;
+    margin: 0;
+}
+
+.stats p {
+    color: white;
+    margin: 0 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: #ffbfd1;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img{
+    width: 200px;
+}
+
+.logo h2{
+    color: #d71544;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.menu{
+    display: flex;
+    gap: 35px;
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color:rgb(128, 33, 33);
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.menu a:hover{
+    color:  #ffffff;
+    opacity: 1;
+}
+
+.buy-btn{
+    background:rgb(128, 33, 33);
+    color: #ffffff;
+    padding: 10px 25px;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.buy-btn:hover{
+    opacity: 0.8;
+}
+
+.cards {
+    display: flex;
+    gap: 5px;
+    margin-top: 200px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.cards_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.carddetails {
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carddetails h1 {
+    font-family: Titan One;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    color: #ae08e0bb;
+    text-transform: uppercase;
+}
+.card_para {
+    width: 200px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: .04em;
+    text-align: center;
+    margin: 20px 0;
+    color: #ae08e0bb;
+    font-family: sans-serif;
+}
+
+.cardOne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffb8ca;
+    border-radius: 24px;
+    gap: 20px;
+    padding: 20px 0;
+    position: relative;
+    width: 300px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+}
+
+.card_img {
+    position: absolute;
+    top: -190px;
+}
+
+.brown {
+    background: #f0d1a5;
+}
+
+.green {
+    background: #c2e297;
+}
+
+
+
+h1, h2, h3 {
+    font-family: Titan One, sans-serif;
+}
+
+#A {
+    margin-top: 30px;
+    font-size: 30px;
+    color: palevioletred;
+}
+
+#B {
+    font-size: 80px;
+    color: rgb(128, 33, 33);
+}
+
+#C {
+     font-size: 30px;
+    color:palevioletred;
+    text-align: center;
+}
+
+#D {
+     font-size: 80px;
+             color:rgb(128, 33, 33); 
+    text-align: center;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.made_work_cow_details {
+    text-align: left;
+    width: 400px;
+}
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+    .made_work_wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        margin-top: 60px;
+    }
+
+.made_work_wrapper {
+    background-image: url(ssetsmilkbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    margin-top: 100px;
+}
+
+.made_work_cow_img {
+    margin-bottom: 50px;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+    
